@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+  <title id="title">Get in touch illustration</title>
+  <desc id="desc">An envelope, a chat bubble and a phone representing contacting the team.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e8fc0"/><stop offset="1" stop-color="#8cc63f"/></linearGradient>
+    <linearGradient id="blob" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dff1f8"/><stop offset="1" stop-color="#ecf7de"/></linearGradient>
+    <filter id="s" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0d2a3b" flood-opacity="0.16"/></filter>
+  </defs>
+
+  <ellipse cx="262" cy="190" rx="226" ry="150" fill="url(#blob)"/>
+  <circle cx="64" cy="88" r="6" fill="#8cc63f" opacity="0.7"/>
+  <circle cx="470" cy="236" r="5" fill="#0e8fc0" opacity="0.6"/>
+  <circle cx="92" cy="300" r="4" fill="#12a39a" opacity="0.6"/>
+
+  <!-- envelope -->
+  <g filter="url(#s)">
+    <rect x="132" y="126" width="252" height="168" rx="18" fill="#fff"/>
+  </g>
+  <!-- letter peeking out -->
+  <rect x="164" y="98" width="188" height="110" rx="10" fill="#f1f7fa" stroke="#dde7ec" stroke-width="2"/>
+  <rect x="182" y="116" width="70" height="9" rx="4.5" fill="url(#g)"/>
+  <rect x="182" y="136" width="150" height="6" rx="3" fill="#d6e4eb"/>
+  <rect x="182" y="150" width="120" height="6" rx="3" fill="#d6e4eb"/>
+  <rect x="182" y="164" width="136" height="6" rx="3" fill="#d6e4eb"/>
+  <!-- envelope front -->
+  <path d="M132 150a18 18 0 0 1 18-18h216a18 18 0 0 1 18 18v126a18 18 0 0 1-18 18H150a18 18 0 0 1-18-18z" fill="#fff"/>
+  <path d="M142 146l116 84 116-84" fill="none" stroke="#bcd9e6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M142 282l86-66M374 282l-86-66" fill="none" stroke="#dde7ec" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="258" cy="230" r="19" fill="url(#g)"/>
+  <path d="M249 230l7 7 13-14" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- chat bubble -->
+  <g filter="url(#s)">
+    <path d="M356 40h92a20 20 0 0 1 20 20v44a20 20 0 0 1-20 20h-52l-26 22v-22h-14a20 20 0 0 1-20-20V60a20 20 0 0 1 20-20z" fill="url(#g)"/>
+  </g>
+  <circle cx="386" cy="82" r="6" fill="#fff"/><circle cx="410" cy="82" r="6" fill="#fff"/><circle cx="434" cy="82" r="6" fill="#fff"/>
+
+  <!-- phone -->
+  <g filter="url(#s)" transform="rotate(-8 90 270)">
+    <rect x="58" y="200" width="82" height="140" rx="16" fill="#0d2a3b"/>
+  </g>
+  <g transform="rotate(-8 90 270)">
+    <rect x="65" y="214" width="68" height="112" rx="8" fill="#e8f4f9"/>
+    <rect x="76" y="226" width="30" height="7" rx="3.5" fill="url(#g)"/>
+    <rect x="76" y="240" width="46" height="5" rx="2.5" fill="#b9d3df"/>
+    <rect x="76" y="251" width="38" height="5" rx="2.5" fill="#b9d3df"/>
+    <circle cx="99" cy="298" r="12" fill="#5f9a1f"/>
+    <path d="M94 293l2.4-2 3 4-1.6 1.6a8 8 0 0 0 3.6 3.6l1.6-1.6 4 3-2 2.4c-5 1-12-6-11-11z" fill="#fff"/>
+    <rect x="86" y="205" width="26" height="4" rx="2" fill="#2c4658"/>
+  </g>
+
+  <!-- location badge -->
+  <g filter="url(#s)">
+    <circle cx="420" cy="266" r="30" fill="#fff"/>
+  </g>
+  <path d="M420 286s-14-12-14-24a14 14 0 0 1 28 0c0 12-14 24-14 24z" fill="#0a6a93"/>
+  <circle cx="420" cy="262" r="5" fill="#fff"/>
+</svg>
